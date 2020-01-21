@@ -1,0 +1,23 @@
+# Importing the Keras libraries and packages
+from keras.models import Sequential
+from keras.layers import Conv2D
+from keras.layers import MaxPooling2D
+from keras.layers import Flatten
+from keras.layers import Dense
+from keras.preprocessing.image import ImageDataGenerator
+import numpy as np
+from keras.preprocessing import image
+
+# import the necessary packages
+from PIL import Image
+import pytesseract
+import cv2
+import os
+import shutil
+import pytesseract
+import numpy as np
+import matplotlib.pyplot as plt
+import matplotlib as mpl
+from PIL import Image
+import boto3
+import pandas as pd
