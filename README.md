@@ -34,7 +34,7 @@ There are two notebooks project.ipynb and functions.ipynb, project.ipynb is the 
 
 For the process to be automated, there is folder structure which needs to be maintained, the folder structure is shown below, 
 
-![folder struct](Demo/folder_struct.png)
+![folder struct](Demo/folder_struct.PNG)
 
 * Ocr_test folder contains the images that we stream into the machine to perform classification and OCR
 * Normalized folder contains the images that have been normalized after preprocessing
@@ -72,15 +72,15 @@ Let's take a sample file called as, sample.png (the sample file is placed in the
 
 Let's say the classification is done, and let's consider this image as printed image. The preprocessing is done and the output of the preprocessed image is shown below,
 
-![sample norm](Demo/sample_normalised.png)
+![sample norm](Demo/sample_normalised.jpg)
 
 The output in the CSV file,
 
-![aws](Demo/aws.png)
+![aws](Demo/aws.PNG)
 
 The pytesseract output,
 
-![pyt](Demo/pyt.png)
+![pyt](Demo/pyt.PNG)
 
 ### Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
